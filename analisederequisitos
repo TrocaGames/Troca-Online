@@ -1,0 +1,39 @@
+1-Resumo do problema abordado, ou seja, determinar (conhecer) o domínio do negócio envolvido, bem como as regras por ele definidas;
+O Web Site troca de jogos será uma plataforma em que os usuários poderão anunciar seus jogos para realizarem trocas ou vendas, a plataforma deverá possuir áreas para anúncios de jogos de empresas como jogos novos possuindo uma interface que permitirá a empresa cadastrada a realizar controle de estoque e entrega por endereço ao cliente. 
+
+2- Requisitos funcionais
+Descrever nesta área todas as ações (processos/funcionalidades) que o sistema deverá oferecer.
+O sistema deve permitir Clientes cadastrados anuncie seus jogos para venda ou troca.
+O sistema deve permitir que os clientes cadastrados comprem ou troquem jogos com outros clientes, ou comprem jogos de empresas cadastradas.
+O sistema deve permitir que os clientes cadastrados possam estabelecer por si mesmo o preço de compra e o valor da troca que deseja adquirir .
+O sistema deve permitir o cadastro de empresa para que o mesmo anuncie a venda de jogos novos ou outro tipo de produto relacionados a games.
+O sistema deve permitir que usuários não cadastrados passam realizar compras ou negociar alguma troca.
+
+2.1 – Regras de negócio: descrevem de que forma as ações devem ser executadas (validações e verificações) desta forma interferem na maneira pela qual as funcionalidades serão executadas.
+RN001 – A plataforma não se responsabiliza por qualquer tipo de compra ou troca realizada entre os clientes usuários e empresas.
+RN002 – O sistema pode realizar o envio de newsletter se o usuário optar por receber o mesmo.
+RN003 – Caso envie uma dúvida, sugestão ou reclamação, o usuário deve fornecer e-mail para resposta.
+
+3- Requisitos não funcionais:
+Listar e descrever as características que impactam na qualidade final do produto (Software).
+•	A base de dados deve ser protegida. Acesso disponível apenas para usuários autorizados;
+•	O sistema deve seguir normas da W3C tornando o sistema utilizável para qualquer pessoa, independente de alguma deficiência física, sensorial, cognitiva.
+•	Portabilidade: O site do cliente poderá ser acessado em dispositivos móveis como Tablets e Smartphones.
+•	Utilização de Técnicas de SEO para melhorar os resultados de pesquisa sobre a banda nos mecanismos de buscas (Google, Yahoo, Bing, etc...).
+•	Utilização de Ajax (Jquery) para validação de formulários e efeitos em slide imagens.
+
+
+4- Requisitos de conteúdo, em alguns casos tornam-se necessária a criação ou coleta junto ao cliente do conteúdo a ser disponibilizado no site.
+•	O cliente providenciará e fornecerá sua biografia, histórico do grupo;
+•	O cliente fornecerá o banco de imagens: fotos dos integrantes e shows realizados;
+
+
+
+
+
+5- Restrições: Plataforma, linguagem de programação, SGBD, Custos, prazo:
+•	O software funcionará em servidor Windows;
+•	As linguagens utilizadas serão: HTML5, CSS3, PHP;
+•	O banco de dados utilizado será o MYSQL;
+•	Biblioteca de funções javascript, Jquery;
+
